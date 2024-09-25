@@ -5,24 +5,25 @@ export function ModalPassword(){
         <View style={styles.container}>
             <View style={styles.content}>
                 <Text style={styles.title}>Senha gerada</Text>
-
-
-         <Pressable style={styles.innerPassword}>
-             <Text style={styles.text)>123456 </Text>
-         </Pressable>
-
-        <View style=(styles.buttonArea}>
-            <TouchableOpacity style={styles.button) >
-                <Text style={styles.buttonText}>Voltar</Text>
-            </TouchableOpacity>
-            
-        <TouchableOpacity style={[styles.button, styles.buttonSave]}>
-            <Text style={styles.buttonSaveText)>Salvar senha</Text>
-        </TouchableOpacity>
-    </View>
-        </View>
             </View>
-})
+
+
+             <Pressable style={styles.innerPassword}>
+                <Text style={styles.text}>123456 </Text>
+             </Pressable>
+
+            <View style={styles.buttonArea}>
+                <TouchableOpacity style={styles.button} >
+                    <Text style={styles.buttonText}>Voltar</Text>
+                </TouchableOpacity>
+            </View>
+        
+            <TouchableOpacity style={[styles.button, styles.buttonSave]}>
+                <Text style={styles.buttonSaveText}>Salvar senha</Text>
+            </TouchableOpacity>
+        </View>
+    );       
+}
 
 
 const styles = StyleSheet.create({
@@ -71,6 +72,7 @@ const styles = StyleSheet.create({
         marginBottom: 14,
         padding: 8,
     },
+
 
 
 })
