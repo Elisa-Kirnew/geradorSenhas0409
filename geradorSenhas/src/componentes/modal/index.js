@@ -72,7 +72,13 @@ const styles = StyleSheet.create({
         marginBottom: 14,
         padding: 8,
     },
-
-
+    buttonSave: {
+        backgroundColor: "#392DE9",
+        borderRadius: 8,
+    },
+    buttonSaveText:{
+        color: "#FFF",
+        fontWeight: 'bold'
+    },
 
 })
